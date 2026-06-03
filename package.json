@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build && npx nitro build --preset cloudflare-pages && node -e \"const fs=require('node:fs'); fs.rmSync('dist/_worker.js/wrangler.json',{force:true}); fs.rmSync('.wrangler',{recursive:true,force:true});\"",
+    "build": "vite build && node -e \"const fs=require('node:fs'); fs.rmSync('dist/_worker.js/wrangler.json',{force:true}); fs.rmSync('.wrangler',{recursive:true,force:true});\"",
     "build:dev": "vite build --mode development",
     "pages:build": "vite build",
     "deploy:cloudflare": "npm run build && npx wrangler pages deploy .output/public",
