@@ -12,5 +12,5 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
-  nitro: { preset: "cloudflare-pages" },
+  nitro: { preset: "cloudflare-pages", cloudflare: { nodeCompat: true } },
 });
