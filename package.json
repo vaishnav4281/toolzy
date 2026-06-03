@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build && npx nitro build --preset cloudflare-module && (if exist .output\\server\\wrangler.json del .output\\server\\wrangler.json)",
+    "build": "vite build && npx nitro build --preset cloudflare-module && node -e \"require('node:fs').rmSync('.output/server/wrangler.json',{force:true})\"",
     "build:dev": "vite build --mode development",
     "pages:build": "vite build",
     "deploy:cloudflare": "npm run build && npx wrangler pages deploy .output/public",
