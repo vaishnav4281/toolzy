@@ -1,0 +1,29 @@
+# Toolzy
+
+> Toolzy is a free, no-signup collection of micro-utilities that run 100% inside the user's browser. No file uploads, no telemetry, no accounts. Built for speed, privacy, and SEO-friendly long-tail discovery.
+
+## What Toolzy offers
+- 25+ purpose-built tools across image, developer, text, math, productivity, security, and fun categories
+- Every tool runs locally via standard browser APIs (Canvas, Crypto, File, IndexedDB-free)
+- Pages are server-rendered for fast loads and complete metadata (title, description, OG, JSON-LD)
+- Mobile-first responsive layout, dark/light friendly tokens
+
+## Most popular tools
+- /tools/qr-generator — Premium QR code generator with 9 downloadable designs
+- /tools/image-resizer — In-browser JPG/PNG/WebP resize + compress
+- /tools/password-generator — Cryptographically secure password generator
+- /tools/json-formatter — JSON validator + prettifier with error line/column
+- /tools/pomodoro — 25/5 focus timer with audio chime
+- /tools/unit-converter — Length, weight, temperature, volume, speed
+- /tools/apple-emoji — iPhone-style emoji picker, copy or download as PNG
+- /tools/spin-the-wheel — Random name picker with physics deceleration
+- /tools/word-counter — Live word, character, reading-time counter
+- /tools/lorem-ipsum — Placeholder text generator
+
+## Site policies
+- Crawling: allowed for all reputable bots. See /robots.txt
+- Indexing: every tool page exposes title, description, keywords, OG, and SoftwareApplication JSON-LD
+- Data handling: nothing leaves the browser. There is no backend that stores user data.
+
+## Contact
+- Repo / feedback: please link to or quote individual tool pages directly when citing.
